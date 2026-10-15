@@ -1,0 +1,558 @@
+type CauseSubmission @aws_iam @aws_cognito_user_pools {
+  name: String!
+  category: String!
+  location: String!
+  targetAmount: Float!
+  urgency: CauseSubmissionUrgency
+  beneficiary: String
+  description: String!
+  registrationNumber: String!
+  documentName: String
+  supportingDocumentKey: String
+  collectorEmail: String
+  collectorName: String
+  raisedAmount: Float
+  status: CauseSubmissionStatus
+  adminNote: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  owner: String
+}
+
+type Campaign @aws_iam @aws_cognito_user_pools {
+  causeSubmissionId: String
+  name: String!
+  category: String!
+  location: String!
+  targetAmount: Float!
+  urgency: CampaignUrgency
+  beneficiary: String
+  description: String!
+  raisedAmount: Float
+  supportingDocumentKey: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type Donation @aws_iam @aws_cognito_user_pools {
+  campaignId: String!
+  causeName: String!
+  category: String
+  amount: Float!
+  donationDate: String!
+  note: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+  owner: String
+}
+
+enum CauseSubmissionUrgency {
+  Low
+  Medium
+  High
+}
+
+enum CauseSubmissionStatus {
+  PENDING
+  VERIFIED
+  REJECTED
+}
+
+enum CampaignUrgency {
+  Low
+  Medium
+  High
+}
+
+input AmplifyAIConversationTurnErrorInput {
+  errorType: String!
+  message: String!
+}
+
+input ModelStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelBooleanInput {
+  ne: Boolean
+  eq: Boolean
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelSubscriptionStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  in: [String]
+  notIn: [String]
+}
+
+input ModelSubscriptionIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  in: [Int]
+  notIn: [Int]
+}
+
+input ModelSubscriptionFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  in: [Float]
+  notIn: [Float]
+}
+
+input ModelSubscriptionBooleanInput {
+  ne: Boolean
+  eq: Boolean
+}
+
+input ModelSubscriptionIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  in: [ID]
+  notIn: [ID]
+}
+
+enum ModelAttributeTypes {
+  binary
+  binarySet
+  bool
+  list
+  map
+  number
+  numberSet
+  string
+  stringSet
+  _null
+}
+
+input ModelSizeInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+}
+
+enum ModelSortDirection {
+  ASC
+  DESC
+}
+
+type ModelCauseSubmissionConnection @aws_iam @aws_cognito_user_pools {
+  items: [CauseSubmission]!
+  nextToken: String
+}
+
+input ModelCauseSubmissionUrgencyInput {
+  eq: CauseSubmissionUrgency
+  ne: CauseSubmissionUrgency
+}
+
+input ModelCauseSubmissionStatusInput {
+  eq: CauseSubmissionStatus
+  ne: CauseSubmissionStatus
+}
+
+input ModelCauseSubmissionFilterInput {
+  name: ModelStringInput
+  category: ModelStringInput
+  location: ModelStringInput
+  targetAmount: ModelFloatInput
+  urgency: ModelCauseSubmissionUrgencyInput
+  beneficiary: ModelStringInput
+  description: ModelStringInput
+  registrationNumber: ModelStringInput
+  documentName: ModelStringInput
+  supportingDocumentKey: ModelStringInput
+  collectorEmail: ModelStringInput
+  collectorName: ModelStringInput
+  raisedAmount: ModelFloatInput
+  status: ModelCauseSubmissionStatusInput
+  adminNote: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelCauseSubmissionFilterInput]
+  or: [ModelCauseSubmissionFilterInput]
+  not: ModelCauseSubmissionFilterInput
+  owner: ModelStringInput
+}
+
+type Query {
+  getCauseSubmission(id: ID!): CauseSubmission @aws_iam @aws_cognito_user_pools
+  listCauseSubmissions(filter: ModelCauseSubmissionFilterInput, limit: Int, nextToken: String): ModelCauseSubmissionConnection @aws_iam @aws_cognito_user_pools
+  getCampaign(id: ID!): Campaign @aws_iam @aws_cognito_user_pools
+  listCampaigns(filter: ModelCampaignFilterInput, limit: Int, nextToken: String): ModelCampaignConnection @aws_iam @aws_cognito_user_pools
+  getDonation(id: ID!): Donation @aws_iam @aws_cognito_user_pools
+  listDonations(filter: ModelDonationFilterInput, limit: Int, nextToken: String): ModelDonationConnection @aws_iam @aws_cognito_user_pools
+}
+
+input ModelCauseSubmissionConditionInput {
+  name: ModelStringInput
+  category: ModelStringInput
+  location: ModelStringInput
+  targetAmount: ModelFloatInput
+  urgency: ModelCauseSubmissionUrgencyInput
+  beneficiary: ModelStringInput
+  description: ModelStringInput
+  registrationNumber: ModelStringInput
+  documentName: ModelStringInput
+  supportingDocumentKey: ModelStringInput
+  collectorEmail: ModelStringInput
+  collectorName: ModelStringInput
+  raisedAmount: ModelFloatInput
+  status: ModelCauseSubmissionStatusInput
+  adminNote: ModelStringInput
+  and: [ModelCauseSubmissionConditionInput]
+  or: [ModelCauseSubmissionConditionInput]
+  not: ModelCauseSubmissionConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  owner: ModelStringInput
+}
+
+input CreateCauseSubmissionInput {
+  name: String!
+  category: String!
+  location: String!
+  targetAmount: Float!
+  urgency: CauseSubmissionUrgency
+  beneficiary: String
+  description: String!
+  registrationNumber: String!
+  documentName: String
+  supportingDocumentKey: String
+  collectorEmail: String
+  collectorName: String
+  raisedAmount: Float
+  status: CauseSubmissionStatus
+  adminNote: String
+  id: ID
+}
+
+input UpdateCauseSubmissionInput {
+  name: String
+  category: String
+  location: String
+  targetAmount: Float
+  urgency: CauseSubmissionUrgency
+  beneficiary: String
+  description: String
+  registrationNumber: String
+  documentName: String
+  supportingDocumentKey: String
+  collectorEmail: String
+  collectorName: String
+  raisedAmount: Float
+  status: CauseSubmissionStatus
+  adminNote: String
+  id: ID!
+}
+
+input DeleteCauseSubmissionInput {
+  id: ID!
+}
+
+type Mutation {
+  createCauseSubmission(input: CreateCauseSubmissionInput!, condition: ModelCauseSubmissionConditionInput): CauseSubmission @aws_iam @aws_cognito_user_pools
+  updateCauseSubmission(input: UpdateCauseSubmissionInput!, condition: ModelCauseSubmissionConditionInput): CauseSubmission @aws_iam @aws_cognito_user_pools
+  deleteCauseSubmission(input: DeleteCauseSubmissionInput!, condition: ModelCauseSubmissionConditionInput): CauseSubmission @aws_iam @aws_cognito_user_pools
+  createCampaign(input: CreateCampaignInput!, condition: ModelCampaignConditionInput): Campaign @aws_iam @aws_cognito_user_pools
+  updateCampaign(input: UpdateCampaignInput!, condition: ModelCampaignConditionInput): Campaign @aws_iam @aws_cognito_user_pools
+  deleteCampaign(input: DeleteCampaignInput!, condition: ModelCampaignConditionInput): Campaign @aws_iam @aws_cognito_user_pools
+  createDonation(input: CreateDonationInput!, condition: ModelDonationConditionInput): Donation @aws_iam @aws_cognito_user_pools
+  updateDonation(input: UpdateDonationInput!, condition: ModelDonationConditionInput): Donation @aws_iam @aws_cognito_user_pools
+  deleteDonation(input: DeleteDonationInput!, condition: ModelDonationConditionInput): Donation @aws_iam @aws_cognito_user_pools
+}
+
+input ModelSubscriptionCauseSubmissionFilterInput {
+  name: ModelSubscriptionStringInput
+  category: ModelSubscriptionStringInput
+  location: ModelSubscriptionStringInput
+  targetAmount: ModelSubscriptionFloatInput
+  urgency: ModelSubscriptionStringInput
+  beneficiary: ModelSubscriptionStringInput
+  description: ModelSubscriptionStringInput
+  registrationNumber: ModelSubscriptionStringInput
+  documentName: ModelSubscriptionStringInput
+  supportingDocumentKey: ModelSubscriptionStringInput
+  collectorEmail: ModelSubscriptionStringInput
+  collectorName: ModelSubscriptionStringInput
+  raisedAmount: ModelSubscriptionFloatInput
+  status: ModelSubscriptionStringInput
+  adminNote: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionCauseSubmissionFilterInput]
+  or: [ModelSubscriptionCauseSubmissionFilterInput]
+  owner: ModelStringInput
+}
+
+type Subscription {
+  onCreateCauseSubmission(filter: ModelSubscriptionCauseSubmissionFilterInput, owner: String): CauseSubmission @aws_subscribe(mutations: ["createCauseSubmission"]) @aws_iam @aws_cognito_user_pools
+  onUpdateCauseSubmission(filter: ModelSubscriptionCauseSubmissionFilterInput, owner: String): CauseSubmission @aws_subscribe(mutations: ["updateCauseSubmission"]) @aws_iam @aws_cognito_user_pools
+  onDeleteCauseSubmission(filter: ModelSubscriptionCauseSubmissionFilterInput, owner: String): CauseSubmission @aws_subscribe(mutations: ["deleteCauseSubmission"]) @aws_iam @aws_cognito_user_pools
+  onCreateCampaign(filter: ModelSubscriptionCampaignFilterInput): Campaign @aws_subscribe(mutations: ["createCampaign"]) @aws_iam @aws_cognito_user_pools
+  onUpdateCampaign(filter: ModelSubscriptionCampaignFilterInput): Campaign @aws_subscribe(mutations: ["updateCampaign"]) @aws_iam @aws_cognito_user_pools
+  onDeleteCampaign(filter: ModelSubscriptionCampaignFilterInput): Campaign @aws_subscribe(mutations: ["deleteCampaign"]) @aws_iam @aws_cognito_user_pools
+  onCreateDonation(filter: ModelSubscriptionDonationFilterInput, owner: String): Donation @aws_subscribe(mutations: ["createDonation"]) @aws_iam @aws_cognito_user_pools
+  onUpdateDonation(filter: ModelSubscriptionDonationFilterInput, owner: String): Donation @aws_subscribe(mutations: ["updateDonation"]) @aws_iam @aws_cognito_user_pools
+  onDeleteDonation(filter: ModelSubscriptionDonationFilterInput, owner: String): Donation @aws_subscribe(mutations: ["deleteDonation"]) @aws_iam @aws_cognito_user_pools
+}
+
+type ModelCampaignConnection @aws_iam @aws_cognito_user_pools {
+  items: [Campaign]!
+  nextToken: String
+}
+
+input ModelCampaignUrgencyInput {
+  eq: CampaignUrgency
+  ne: CampaignUrgency
+}
+
+input ModelCampaignFilterInput {
+  causeSubmissionId: ModelStringInput
+  name: ModelStringInput
+  category: ModelStringInput
+  location: ModelStringInput
+  targetAmount: ModelFloatInput
+  urgency: ModelCampaignUrgencyInput
+  beneficiary: ModelStringInput
+  description: ModelStringInput
+  raisedAmount: ModelFloatInput
+  supportingDocumentKey: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelCampaignFilterInput]
+  or: [ModelCampaignFilterInput]
+  not: ModelCampaignFilterInput
+}
+
+input ModelCampaignConditionInput {
+  causeSubmissionId: ModelStringInput
+  name: ModelStringInput
+  category: ModelStringInput
+  location: ModelStringInput
+  targetAmount: ModelFloatInput
+  urgency: ModelCampaignUrgencyInput
+  beneficiary: ModelStringInput
+  description: ModelStringInput
+  raisedAmount: ModelFloatInput
+  supportingDocumentKey: ModelStringInput
+  and: [ModelCampaignConditionInput]
+  or: [ModelCampaignConditionInput]
+  not: ModelCampaignConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateCampaignInput {
+  causeSubmissionId: String
+  name: String!
+  category: String!
+  location: String!
+  targetAmount: Float!
+  urgency: CampaignUrgency
+  beneficiary: String
+  description: String!
+  raisedAmount: Float
+  supportingDocumentKey: String
+  id: ID
+}
+
+input UpdateCampaignInput {
+  causeSubmissionId: String
+  name: String
+  category: String
+  location: String
+  targetAmount: Float
+  urgency: CampaignUrgency
+  beneficiary: String
+  description: String
+  raisedAmount: Float
+  supportingDocumentKey: String
+  id: ID!
+}
+
+input DeleteCampaignInput {
+  id: ID!
+}
+
+input ModelSubscriptionCampaignFilterInput {
+  causeSubmissionId: ModelSubscriptionStringInput
+  name: ModelSubscriptionStringInput
+  category: ModelSubscriptionStringInput
+  location: ModelSubscriptionStringInput
+  targetAmount: ModelSubscriptionFloatInput
+  urgency: ModelSubscriptionStringInput
+  beneficiary: ModelSubscriptionStringInput
+  description: ModelSubscriptionStringInput
+  raisedAmount: ModelSubscriptionFloatInput
+  supportingDocumentKey: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionCampaignFilterInput]
+  or: [ModelSubscriptionCampaignFilterInput]
+}
+
+type ModelDonationConnection @aws_iam @aws_cognito_user_pools {
+  items: [Donation]!
+  nextToken: String
+}
+
+input ModelDonationFilterInput {
+  campaignId: ModelStringInput
+  causeName: ModelStringInput
+  category: ModelStringInput
+  amount: ModelFloatInput
+  donationDate: ModelStringInput
+  note: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelDonationFilterInput]
+  or: [ModelDonationFilterInput]
+  not: ModelDonationFilterInput
+  owner: ModelStringInput
+}
+
+input ModelDonationConditionInput {
+  campaignId: ModelStringInput
+  causeName: ModelStringInput
+  category: ModelStringInput
+  amount: ModelFloatInput
+  donationDate: ModelStringInput
+  note: ModelStringInput
+  and: [ModelDonationConditionInput]
+  or: [ModelDonationConditionInput]
+  not: ModelDonationConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  owner: ModelStringInput
+}
+
+input CreateDonationInput {
+  campaignId: String!
+  causeName: String!
+  category: String
+  amount: Float!
+  donationDate: String!
+  note: String
+  id: ID
+}
+
+input UpdateDonationInput {
+  campaignId: String
+  causeName: String
+  category: String
+  amount: Float
+  donationDate: String
+  note: String
+  id: ID!
+}
+
+input DeleteDonationInput {
+  id: ID!
+}
+
+input ModelSubscriptionDonationFilterInput {
+  campaignId: ModelSubscriptionStringInput
+  causeName: ModelSubscriptionStringInput
+  category: ModelSubscriptionStringInput
+  amount: ModelSubscriptionFloatInput
+  donationDate: ModelSubscriptionStringInput
+  note: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionDonationFilterInput]
+  or: [ModelSubscriptionDonationFilterInput]
+  owner: ModelStringInput
+}

@@ -1,0 +1,567 @@
+{
+  "auth": {
+    "user_pool_id": "ap-south-1_CXhtE774R",
+    "aws_region": "ap-south-1",
+    "user_pool_client_id": "3fiscsq27reubma1cn9uljb3vh",
+    "identity_pool_id": "ap-south-1:bbae2561-b0aa-4e6d-a856-e122cc0aed14",
+    "mfa_methods": [],
+    "standard_required_attributes": [
+      "email"
+    ],
+    "username_attributes": [
+      "email"
+    ],
+    "user_verification_types": [
+      "email"
+    ],
+    "groups": [
+      {
+        "admin": {
+          "precedence": 0
+        }
+      },
+      {
+        "collector": {
+          "precedence": 1
+        }
+      },
+      {
+        "donor": {
+          "precedence": 2
+        }
+      }
+    ],
+    "mfa_configuration": "NONE",
+    "password_policy": {
+      "min_length": 8,
+      "require_lowercase": true,
+      "require_numbers": true,
+      "require_symbols": true,
+      "require_uppercase": true
+    },
+    "unauthenticated_identities_enabled": true
+  },
+  "data": {
+    "url": "https://gouymmmhhbcjfnpx7hei54kwjy.appsync-api.ap-south-1.amazonaws.com/graphql",
+    "aws_region": "ap-south-1",
+    "default_authorization_type": "AMAZON_COGNITO_USER_POOLS",
+    "authorization_types": [
+      "AWS_IAM"
+    ],
+    "model_introspection": {
+      "version": 1,
+      "models": {
+        "CauseSubmission": {
+          "name": "CauseSubmission",
+          "fields": {
+            "id": {
+              "name": "id",
+              "isArray": false,
+              "type": "ID",
+              "isRequired": true,
+              "attributes": []
+            },
+            "name": {
+              "name": "name",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "category": {
+              "name": "category",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "location": {
+              "name": "location",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "targetAmount": {
+              "name": "targetAmount",
+              "isArray": false,
+              "type": "Float",
+              "isRequired": true,
+              "attributes": []
+            },
+            "urgency": {
+              "name": "urgency",
+              "isArray": false,
+              "type": {
+                "enum": "CauseSubmissionUrgency"
+              },
+              "isRequired": false,
+              "attributes": []
+            },
+            "beneficiary": {
+              "name": "beneficiary",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "description": {
+              "name": "description",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "registrationNumber": {
+              "name": "registrationNumber",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "documentName": {
+              "name": "documentName",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "supportingDocumentKey": {
+              "name": "supportingDocumentKey",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "collectorEmail": {
+              "name": "collectorEmail",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "collectorName": {
+              "name": "collectorName",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "raisedAmount": {
+              "name": "raisedAmount",
+              "isArray": false,
+              "type": "Float",
+              "isRequired": false,
+              "attributes": []
+            },
+            "status": {
+              "name": "status",
+              "isArray": false,
+              "type": {
+                "enum": "CauseSubmissionStatus"
+              },
+              "isRequired": false,
+              "attributes": []
+            },
+            "adminNote": {
+              "name": "adminNote",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "createdAt": {
+              "name": "createdAt",
+              "isArray": false,
+              "type": "AWSDateTime",
+              "isRequired": false,
+              "attributes": [],
+              "isReadOnly": true
+            },
+            "updatedAt": {
+              "name": "updatedAt",
+              "isArray": false,
+              "type": "AWSDateTime",
+              "isRequired": false,
+              "attributes": [],
+              "isReadOnly": true
+            }
+          },
+          "syncable": true,
+          "pluralName": "CauseSubmissions",
+          "attributes": [
+            {
+              "type": "model",
+              "properties": {}
+            },
+            {
+              "type": "auth",
+              "properties": {
+                "rules": [
+                  {
+                    "groupClaim": "cognito:groups",
+                    "provider": "userPools",
+                    "allow": "groups",
+                    "groups": [
+                      "admin"
+                    ],
+                    "operations": [
+                      "create",
+                      "update",
+                      "delete",
+                      "read"
+                    ]
+                  },
+                  {
+                    "groupClaim": "cognito:groups",
+                    "provider": "userPools",
+                    "allow": "groups",
+                    "operations": [
+                      "create"
+                    ],
+                    "groups": [
+                      "collector"
+                    ]
+                  },
+                  {
+                    "provider": "userPools",
+                    "ownerField": "owner",
+                    "allow": "owner",
+                    "operations": [
+                      "read"
+                    ],
+                    "identityClaim": "cognito:username"
+                  }
+                ]
+              }
+            }
+          ],
+          "primaryKeyInfo": {
+            "isCustomPrimaryKey": false,
+            "primaryKeyFieldName": "id",
+            "sortKeyFieldNames": []
+          }
+        },
+        "Campaign": {
+          "name": "Campaign",
+          "fields": {
+            "id": {
+              "name": "id",
+              "isArray": false,
+              "type": "ID",
+              "isRequired": true,
+              "attributes": []
+            },
+            "causeSubmissionId": {
+              "name": "causeSubmissionId",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "name": {
+              "name": "name",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "category": {
+              "name": "category",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "location": {
+              "name": "location",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "targetAmount": {
+              "name": "targetAmount",
+              "isArray": false,
+              "type": "Float",
+              "isRequired": true,
+              "attributes": []
+            },
+            "urgency": {
+              "name": "urgency",
+              "isArray": false,
+              "type": {
+                "enum": "CampaignUrgency"
+              },
+              "isRequired": false,
+              "attributes": []
+            },
+            "beneficiary": {
+              "name": "beneficiary",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "description": {
+              "name": "description",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "raisedAmount": {
+              "name": "raisedAmount",
+              "isArray": false,
+              "type": "Float",
+              "isRequired": false,
+              "attributes": []
+            },
+            "supportingDocumentKey": {
+              "name": "supportingDocumentKey",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "createdAt": {
+              "name": "createdAt",
+              "isArray": false,
+              "type": "AWSDateTime",
+              "isRequired": false,
+              "attributes": [],
+              "isReadOnly": true
+            },
+            "updatedAt": {
+              "name": "updatedAt",
+              "isArray": false,
+              "type": "AWSDateTime",
+              "isRequired": false,
+              "attributes": [],
+              "isReadOnly": true
+            }
+          },
+          "syncable": true,
+          "pluralName": "Campaigns",
+          "attributes": [
+            {
+              "type": "model",
+              "properties": {}
+            },
+            {
+              "type": "auth",
+              "properties": {
+                "rules": [
+                  {
+                    "groupClaim": "cognito:groups",
+                    "provider": "userPools",
+                    "allow": "groups",
+                    "groups": [
+                      "admin"
+                    ],
+                    "operations": [
+                      "create",
+                      "update",
+                      "delete",
+                      "read"
+                    ]
+                  },
+                  {
+                    "allow": "private",
+                    "operations": [
+                      "read"
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "primaryKeyInfo": {
+            "isCustomPrimaryKey": false,
+            "primaryKeyFieldName": "id",
+            "sortKeyFieldNames": []
+          }
+        },
+        "Donation": {
+          "name": "Donation",
+          "fields": {
+            "id": {
+              "name": "id",
+              "isArray": false,
+              "type": "ID",
+              "isRequired": true,
+              "attributes": []
+            },
+            "campaignId": {
+              "name": "campaignId",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "causeName": {
+              "name": "causeName",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "category": {
+              "name": "category",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "amount": {
+              "name": "amount",
+              "isArray": false,
+              "type": "Float",
+              "isRequired": true,
+              "attributes": []
+            },
+            "donationDate": {
+              "name": "donationDate",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true,
+              "attributes": []
+            },
+            "note": {
+              "name": "note",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false,
+              "attributes": []
+            },
+            "createdAt": {
+              "name": "createdAt",
+              "isArray": false,
+              "type": "AWSDateTime",
+              "isRequired": false,
+              "attributes": [],
+              "isReadOnly": true
+            },
+            "updatedAt": {
+              "name": "updatedAt",
+              "isArray": false,
+              "type": "AWSDateTime",
+              "isRequired": false,
+              "attributes": [],
+              "isReadOnly": true
+            }
+          },
+          "syncable": true,
+          "pluralName": "Donations",
+          "attributes": [
+            {
+              "type": "model",
+              "properties": {}
+            },
+            {
+              "type": "auth",
+              "properties": {
+                "rules": [
+                  {
+                    "groupClaim": "cognito:groups",
+                    "provider": "userPools",
+                    "allow": "groups",
+                    "groups": [
+                      "admin"
+                    ],
+                    "operations": [
+                      "create",
+                      "update",
+                      "delete",
+                      "read"
+                    ]
+                  },
+                  {
+                    "groupClaim": "cognito:groups",
+                    "provider": "userPools",
+                    "allow": "groups",
+                    "operations": [
+                      "create"
+                    ],
+                    "groups": [
+                      "donor"
+                    ]
+                  },
+                  {
+                    "provider": "userPools",
+                    "ownerField": "owner",
+                    "allow": "owner",
+                    "operations": [
+                      "read"
+                    ],
+                    "identityClaim": "cognito:username"
+                  }
+                ]
+              }
+            }
+          ],
+          "primaryKeyInfo": {
+            "isCustomPrimaryKey": false,
+            "primaryKeyFieldName": "id",
+            "sortKeyFieldNames": []
+          }
+        }
+      },
+      "enums": {
+        "CauseSubmissionUrgency": {
+          "name": "CauseSubmissionUrgency",
+          "values": [
+            "Low",
+            "Medium",
+            "High"
+          ]
+        },
+        "CauseSubmissionStatus": {
+          "name": "CauseSubmissionStatus",
+          "values": [
+            "PENDING",
+            "VERIFIED",
+            "REJECTED"
+          ]
+        },
+        "CampaignUrgency": {
+          "name": "CampaignUrgency",
+          "values": [
+            "Low",
+            "Medium",
+            "High"
+          ]
+        }
+      },
+      "nonModels": {}
+    }
+  },
+  "storage": {
+    "aws_region": "ap-south-1",
+    "bucket_name": "amplify-smartcharityplatf-charitydocumentsbucket45-pj7nahycfxou",
+    "buckets": [
+      {
+        "name": "charityDocuments",
+        "bucket_name": "amplify-smartcharityplatf-charitydocumentsbucket45-pj7nahycfxou",
+        "aws_region": "ap-south-1",
+        "paths": {
+          "verification-documents/${cognito-identity.amazonaws.com:sub}/*": {
+            "entityidentity": [
+              "get",
+              "list",
+              "write",
+              "delete"
+            ]
+          },
+          "verification-documents/*": {
+            "groupsadmin": [
+              "get",
+              "list"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "version": "1.5"
+}

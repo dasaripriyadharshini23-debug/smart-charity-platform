@@ -1,0 +1,48 @@
+type CauseSubmission @model @auth(rules: [{allow: groups, groups: ["admin"]},
+  {allow: groups, operations: [create], groups: ["collector"]},
+  {allow: owner, operations: [read, update], ownerField: "owner"}])
+{
+  title: String!
+  category: String!
+  location: String!
+  fundraisingGoal: Float!
+  urgency: CauseSubmissionUrgency
+  beneficiaries: [String]
+  description: String!
+  organizationRegistrationNumber: String!
+  supportingDocumentKey: String
+}
+
+type Campaign @model @auth(rules: [{allow: groups, groups: ["admin"]},
+  {allow: private, operations: [read]}])
+{
+  title: String!
+  category: String!
+  location: String!
+  fundraisingGoal: Float!
+  urgency: CampaignUrgency
+  beneficiaries: [String]
+  description: String!
+  raisedAmount: Float
+}
+
+type Donation @model @auth(rules: [{allow: groups, groups: ["admin"]},
+  {allow: groups, operations: [create], groups: ["donor"]},
+  {allow: owner, operations: [read], ownerField: "owner"}])
+{
+  campaignId: String!
+  amount: Float!
+  note: String
+}
+
+enum CauseSubmissionUrgency {
+  Low
+  Medium
+  High
+}
+
+enum CampaignUrgency {
+  Low
+  Medium
+  High
+}

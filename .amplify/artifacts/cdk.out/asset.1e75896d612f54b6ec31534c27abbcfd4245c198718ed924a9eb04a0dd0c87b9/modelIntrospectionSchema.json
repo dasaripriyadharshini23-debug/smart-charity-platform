@@ -1,0 +1,403 @@
+{
+    "version": 1,
+    "models": {
+        "CauseSubmission": {
+            "name": "CauseSubmission",
+            "fields": {
+                "id": {
+                    "name": "id",
+                    "isArray": false,
+                    "type": "ID",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "title": {
+                    "name": "title",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "category": {
+                    "name": "category",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "location": {
+                    "name": "location",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "fundraisingGoal": {
+                    "name": "fundraisingGoal",
+                    "isArray": false,
+                    "type": "Float",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "urgency": {
+                    "name": "urgency",
+                    "isArray": false,
+                    "type": {
+                        "enum": "CauseSubmissionUrgency"
+                    },
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "beneficiaries": {
+                    "name": "beneficiaries",
+                    "isArray": true,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": [],
+                    "isArrayNullable": true
+                },
+                "description": {
+                    "name": "description",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "organizationRegistrationNumber": {
+                    "name": "organizationRegistrationNumber",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "supportingDocumentKey": {
+                    "name": "supportingDocumentKey",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "createdAt": {
+                    "name": "createdAt",
+                    "isArray": false,
+                    "type": "AWSDateTime",
+                    "isRequired": false,
+                    "attributes": [],
+                    "isReadOnly": true
+                },
+                "updatedAt": {
+                    "name": "updatedAt",
+                    "isArray": false,
+                    "type": "AWSDateTime",
+                    "isRequired": false,
+                    "attributes": [],
+                    "isReadOnly": true
+                }
+            },
+            "syncable": true,
+            "pluralName": "CauseSubmissions",
+            "attributes": [
+                {
+                    "type": "model",
+                    "properties": {}
+                },
+                {
+                    "type": "auth",
+                    "properties": {
+                        "rules": [
+                            {
+                                "groupClaim": "cognito:groups",
+                                "provider": "userPools",
+                                "allow": "groups",
+                                "groups": [
+                                    "admin"
+                                ],
+                                "operations": [
+                                    "create",
+                                    "update",
+                                    "delete",
+                                    "read"
+                                ]
+                            },
+                            {
+                                "groupClaim": "cognito:groups",
+                                "provider": "userPools",
+                                "allow": "groups",
+                                "operations": [
+                                    "create"
+                                ],
+                                "groups": [
+                                    "collector"
+                                ]
+                            },
+                            {
+                                "provider": "userPools",
+                                "ownerField": "owner",
+                                "allow": "owner",
+                                "operations": [
+                                    "read",
+                                    "update"
+                                ],
+                                "identityClaim": "cognito:username"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "primaryKeyInfo": {
+                "isCustomPrimaryKey": false,
+                "primaryKeyFieldName": "id",
+                "sortKeyFieldNames": []
+            }
+        },
+        "Campaign": {
+            "name": "Campaign",
+            "fields": {
+                "id": {
+                    "name": "id",
+                    "isArray": false,
+                    "type": "ID",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "title": {
+                    "name": "title",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "category": {
+                    "name": "category",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "location": {
+                    "name": "location",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "fundraisingGoal": {
+                    "name": "fundraisingGoal",
+                    "isArray": false,
+                    "type": "Float",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "urgency": {
+                    "name": "urgency",
+                    "isArray": false,
+                    "type": {
+                        "enum": "CampaignUrgency"
+                    },
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "beneficiaries": {
+                    "name": "beneficiaries",
+                    "isArray": true,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": [],
+                    "isArrayNullable": true
+                },
+                "description": {
+                    "name": "description",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "raisedAmount": {
+                    "name": "raisedAmount",
+                    "isArray": false,
+                    "type": "Float",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "createdAt": {
+                    "name": "createdAt",
+                    "isArray": false,
+                    "type": "AWSDateTime",
+                    "isRequired": false,
+                    "attributes": [],
+                    "isReadOnly": true
+                },
+                "updatedAt": {
+                    "name": "updatedAt",
+                    "isArray": false,
+                    "type": "AWSDateTime",
+                    "isRequired": false,
+                    "attributes": [],
+                    "isReadOnly": true
+                }
+            },
+            "syncable": true,
+            "pluralName": "Campaigns",
+            "attributes": [
+                {
+                    "type": "model",
+                    "properties": {}
+                },
+                {
+                    "type": "auth",
+                    "properties": {
+                        "rules": [
+                            {
+                                "groupClaim": "cognito:groups",
+                                "provider": "userPools",
+                                "allow": "groups",
+                                "groups": [
+                                    "admin"
+                                ],
+                                "operations": [
+                                    "create",
+                                    "update",
+                                    "delete",
+                                    "read"
+                                ]
+                            },
+                            {
+                                "allow": "private",
+                                "operations": [
+                                    "read"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "primaryKeyInfo": {
+                "isCustomPrimaryKey": false,
+                "primaryKeyFieldName": "id",
+                "sortKeyFieldNames": []
+            }
+        },
+        "Donation": {
+            "name": "Donation",
+            "fields": {
+                "id": {
+                    "name": "id",
+                    "isArray": false,
+                    "type": "ID",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "campaignId": {
+                    "name": "campaignId",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "amount": {
+                    "name": "amount",
+                    "isArray": false,
+                    "type": "Float",
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "note": {
+                    "name": "note",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "createdAt": {
+                    "name": "createdAt",
+                    "isArray": false,
+                    "type": "AWSDateTime",
+                    "isRequired": false,
+                    "attributes": [],
+                    "isReadOnly": true
+                },
+                "updatedAt": {
+                    "name": "updatedAt",
+                    "isArray": false,
+                    "type": "AWSDateTime",
+                    "isRequired": false,
+                    "attributes": [],
+                    "isReadOnly": true
+                }
+            },
+            "syncable": true,
+            "pluralName": "Donations",
+            "attributes": [
+                {
+                    "type": "model",
+                    "properties": {}
+                },
+                {
+                    "type": "auth",
+                    "properties": {
+                        "rules": [
+                            {
+                                "groupClaim": "cognito:groups",
+                                "provider": "userPools",
+                                "allow": "groups",
+                                "groups": [
+                                    "admin"
+                                ],
+                                "operations": [
+                                    "create",
+                                    "update",
+                                    "delete",
+                                    "read"
+                                ]
+                            },
+                            {
+                                "groupClaim": "cognito:groups",
+                                "provider": "userPools",
+                                "allow": "groups",
+                                "operations": [
+                                    "create"
+                                ],
+                                "groups": [
+                                    "donor"
+                                ]
+                            },
+                            {
+                                "provider": "userPools",
+                                "ownerField": "owner",
+                                "allow": "owner",
+                                "operations": [
+                                    "read"
+                                ],
+                                "identityClaim": "cognito:username"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "primaryKeyInfo": {
+                "isCustomPrimaryKey": false,
+                "primaryKeyFieldName": "id",
+                "sortKeyFieldNames": []
+            }
+        }
+    },
+    "enums": {
+        "CauseSubmissionUrgency": {
+            "name": "CauseSubmissionUrgency",
+            "values": [
+                "Low",
+                "Medium",
+                "High"
+            ]
+        },
+        "CampaignUrgency": {
+            "name": "CampaignUrgency",
+            "values": [
+                "Low",
+                "Medium",
+                "High"
+            ]
+        }
+    },
+    "nonModels": {}
+}

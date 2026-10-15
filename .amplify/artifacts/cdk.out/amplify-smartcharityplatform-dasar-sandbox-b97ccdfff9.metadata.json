@@ -1,0 +1,4754 @@
+{
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)",
+        "...node internals, @aws-amplify/backend-deployer, @aws-cdk\\toolkit-lib..."
+      ]
+    },
+    {
+      "type": "aws:cdk:stack-tags",
+      "data": [
+        {
+          "key": "amplify:deployment-type",
+          "value": "sandbox"
+        },
+        {
+          "key": "created-by",
+          "value": "amplify"
+        }
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/deploymentType": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "deploymentType"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)",
+        "...node internals, @aws-amplify/backend-deployer, @aws-cdk\\toolkit-lib..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/region": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "region"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)",
+        "...node internals, @aws-amplify/backend-deployer, @aws-cdk\\toolkit-lib..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/userPoolId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "userPoolId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/webClientId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "webClientId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/identityPoolId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "identityPoolId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/authRegion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "authRegion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/allowUnauthenticatedIdentities": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "allowUnauthenticatedIdentities"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/signupAttributes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "signupAttributes"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/usernameAttributes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "usernameAttributes"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/verificationMechanisms": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "verificationMechanisms"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/passwordPolicyMinLength": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "passwordPolicyMinLength"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/passwordPolicyRequirements": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "passwordPolicyRequirements"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/mfaConfiguration": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "mfaConfiguration"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/mfaTypes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "mfaTypes"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/passwordlessOptions": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "passwordlessOptions"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/socialProviders": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "socialProviders"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/oauthCognitoDomain": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthCognitoDomain"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/oauthScope": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthScope"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/oauthRedirectSignIn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthRedirectSignIn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/oauthRedirectSignOut": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthRedirectSignOut"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/oauthResponseType": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthResponseType"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/oauthClientId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthClientId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/groups": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "groups"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/awsAppsyncApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncApiId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/awsAppsyncApiEndpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncApiEndpoint"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/awsAppsyncAuthenticationType": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncAuthenticationType"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/awsAppsyncRegion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncRegion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/amplifyApiModelSchemaS3Uri": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyApiModelSchemaS3Uri"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/awsAppsyncAdditionalAuthenticationTypes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncAdditionalAuthenticationTypes"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storageRegion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "storageRegion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\backend-storage, aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/bucketName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "bucketName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\backend-storage, aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/buckets": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "buckets"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\backend-output-storage...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend-output-storage, @aws-amplify\\backend-storage, aws-cdk-lib..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthUserPool7DA4BE78Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthUserPool7DA4BE78Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthUserPoolAppClientF1C7CBFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthUserPoolAppClientF1C7CBFERef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthadminGroupRole6C2186C6Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthadminGroupRole6C2186C6Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth.NestedStack/auth.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "auth179371D7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-singleton",
+      "data": true
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+      "data": 2
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-singleton",
+      "data": true
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+      "data": 2
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthUserPool7DA4BE78Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthUserPool7DA4BE78Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EGraphQLUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EGraphQLUrl"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB9C1EB383DestinationBucketArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB9C1EB383DestinationBucketArn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data.NestedStack/data.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "data7552DF31"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthadminGroupRole6C2186C6Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthadminGroupRole6C2186C6Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/amplifysmartcharityplatformdasarsandboxb97ccdfff9storagecharityDocumentsBucketD3310915Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9storagecharityDocumentsBucketD3310915Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage.NestedStack/storage.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "storage0EC3F24A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/IdentityPool": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthIdentityPool3FDE84CC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...defineBackend in @aws-amplify\\backend...",
+        "<anonymous> (C:\\Users\\dasar\\smart-charity-platform\\amplify\\backend.ts:6:1)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/adminGroup": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthadminGroupBF1343DA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\auth-construct...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/collectorGroup": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthcollectorGroupC14CC3A8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\auth-construct...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/donorGroup": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthdonorGroupC7080105"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\auth-construct...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\graphql-api-construct...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/modelIntrospectionSchemaBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketF566B665"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend..."
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.map (:)",
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_BUCKET_NAMEParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMABUCKETNAMEParameter47BF4F44"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.map (:)",
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_KEYParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMAKEYParameterB6AEAE8A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.map (:)",
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/AMPLIFY_DATA_DEFAULT_NAMEParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.map (:)",
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/CHARITY_DOCUMENTS_BUCKET_NAMEParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CHARITYDOCUMENTSBUCKETNAMEParameter3F84E6A3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend...",
+        "Array.map (:)",
+        "...<anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9--storageAccess3/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9storageAccess3A8AE73BB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend-storage...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\backend-storage, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9--storageAccess4/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9storageAccess449F277EA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\backend-storage...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\backend-storage, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/UserPool/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthUserPool4BA7F805"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/UserPoolAppClient/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthUserPoolAppClient2626C6F8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/authenticatedUserRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\auth-construct, @aws-amplify\\backend-auth, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/adminGroupRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthadminGroupRole7DCAC20D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\auth-construct...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/collectorGroupRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthcollectorGroupRole0917CA69"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\auth-construct...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/auth/amplifyAuth/donorGroupRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthdonorGroupRole50517525"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\auth-construct...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\auth-construct, @aws-amplify\\backend-auth, @aws-amplify\\backend..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/GraphQLAPI/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPI42A6FA33"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/GraphQLAPI/TransformerSchema": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/GraphQLAPI/NONE_DS": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "NONE_DS"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent8A1E2F70Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent8A1E2F70Arn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CauseSubmissionTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CustomTableCauseSubmissionTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/GetAttCauseSubmissionTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttCauseSubmissionTableStreamArn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/GetAttCauseSubmissionTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttCauseSubmissionTableName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CauseSubmissionIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CauseSubmissionIAMRole"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CauseSubmissionDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CauseSubmissionTable"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/queryGetCauseSubmissionResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetCauseSubmissionResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getCauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/queryListCauseSubmissionsResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListCauseSubmissionResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listCauseSubmissions"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/mutationCreateCauseSubmissionResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateCauseSubmissionResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createCauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/mutationUpdateCauseSubmissionResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateCauseSubmissionResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateCauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/mutationDeleteCauseSubmissionResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteCauseSubmissionResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteCauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/subscriptionOnCreateCauseSubmissionResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateCauseSubmissionResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateCauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/subscriptionOnUpdateCauseSubmissionResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateCauseSubmissionResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateCauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/subscriptionOnDeleteCauseSubmissionResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteCauseSubmissionResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteCauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/causeSubmissionOwnerResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CauseSubmissionownerResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CauseSubmission.owner"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE6D0A025Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent8A1E2F70Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE6D0A025Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManageF6D52866"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission.NestedStack/CauseSubmission.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataCauseSubmissionNestedStackCauseSubmissionNestedStackResource5CB7F84B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CampaignTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Campaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CustomTableCampaignTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Campaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/GetAttCampaignTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttCampaignTableStreamArn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/GetAttCampaignTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttCampaignTableName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CampaignIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CampaignIAMRole"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CampaignDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CampaignTable"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/queryGetCampaignResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetCampaignResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getCampaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/queryListCampaignsResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListCampaignResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listCampaigns"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/mutationCreateCampaignResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateCampaignResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createCampaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/mutationUpdateCampaignResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateCampaignResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateCampaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/mutationDeleteCampaignResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteCampaignResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteCampaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/subscriptionOnCreateCampaignResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateCampaignResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateCampaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/subscriptionOnUpdateCampaignResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateCampaignResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateCampaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/subscriptionOnDeleteCampaignResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteCampaignResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteCampaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE6D0A025Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent8A1E2F70Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE6D0A025Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManageF6D52866"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign.NestedStack/Campaign.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataCampaignNestedStackCampaignNestedStackResource873FA6A1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DonationTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Donation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/CustomTableDonationTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Donation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/GetAttDonationTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttDonationTableStreamArn"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/GetAttDonationTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttDonationTableName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DonationIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "DonationIAMRole"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DonationDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "DonationTable"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/queryGetDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetDonationResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getDonation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/queryListDonationsResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListDonationResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listDonations"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/mutationCreateDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateDonationResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createDonation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/mutationUpdateDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateDonationResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateDonation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/mutationDeleteDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteDonationResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteDonation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/subscriptionOnCreateDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateDonationResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateDonation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/subscriptionOnUpdateDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateDonationResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateDonation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/subscriptionOnDeleteDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteDonationResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteDonation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/donationOwnerResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DonationownerResolver"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Donation.owner"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE6D0A025Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent8A1E2F70Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE6D0A025Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManageF6D52866"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/reference-to-amplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputs.amplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation.NestedStack/Donation.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataDonationNestedStackDonationNestedStackResource294056DF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/modelIntrospectionSchemaBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketPolicy4DAB0D15"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/modelIntrospectionSchemaBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketAutoDeleteObjectsCustomResourceFE57309F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/modelIntrospectionSchemaBucketDeployment/AwsCliLayer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketDeploymentAwsCliLayer13C432F7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/modelIntrospectionSchemaBucketDeployment/CustomResource-1536MiB/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketDeploymentCustomResource1536MiB104B97EC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/charityDocuments/Bucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "charityDocumentsBucket459D81DC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend-storage, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)",
+        "...@aws-amplify\\backend..."
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPINONEDS684BF699"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\graphql-api-construct...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "NONE_DS"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyTableWaiterStateMachine060600BC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CauseSubmissionIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CauseSubmissionIAMRole9B2F920D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CauseSubmissionIAMRole"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CauseSubmissionDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CauseSubmissionDataSource"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CauseSubmissionTable"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/QuerygetCauseSubmissionauth0Function/QuerygetCauseSubmissionauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetCauseSubmissionauth0FunctionQuerygetCauseSubmissionauth0FunctionAppSyncFunctionB8287146"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetCauseSubmissionauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/QuerygetCauseSubmissionpostAuth0Function/QuerygetCauseSubmissionpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetCauseSubmissionpostAuth0FunctionQuerygetCauseSubmissionpostAuth0FunctionAppSyncFunction65B710CC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetCauseSubmissionpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/QueryGetCauseSubmissionDataResolverFn/QueryGetCauseSubmissionDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetCauseSubmissionDataResolverFnQueryGetCauseSubmissionDataResolverFnAppSyncFunctionB8A02D2D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetCauseSubmissionDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/QuerylistCauseSubmissionsauth0Function/QuerylistCauseSubmissionsauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistCauseSubmissionsauth0FunctionQuerylistCauseSubmissionsauth0FunctionAppSyncFunction53C2E995"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistCauseSubmissionsauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/QuerylistCauseSubmissionspostAuth0Function/QuerylistCauseSubmissionspostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistCauseSubmissionspostAuth0FunctionQuerylistCauseSubmissionspostAuth0FunctionAppSyncFunctionFD92239F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistCauseSubmissionspostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/QueryListCauseSubmissionsDataResolverFn/QueryListCauseSubmissionsDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListCauseSubmissionsDataResolverFnQueryListCauseSubmissionsDataResolverFnAppSyncFunction85305373"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListCauseSubmissionsDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationcreateCauseSubmissioninit0Function/MutationcreateCauseSubmissioninit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateCauseSubmissioninit0FunctionMutationcreateCauseSubmissioninit0FunctionAppSyncFunction333925E6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateCauseSubmissioninit0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationcreateCauseSubmissionauth0Function/MutationcreateCauseSubmissionauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateCauseSubmissionauth0FunctionMutationcreateCauseSubmissionauth0FunctionAppSyncFunctionFE8B82BA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateCauseSubmissionauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationcreateCauseSubmissionpostAuth0Function/MutationcreateCauseSubmissionpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateCauseSubmissionpostAuth0FunctionMutationcreateCauseSubmissionpostAuth0FunctionAppSyncFunctionC5625344"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateCauseSubmissionpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationCreateCauseSubmissionDataResolverFn/MutationCreateCauseSubmissionDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateCauseSubmissionDataResolverFnMutationCreateCauseSubmissionDataResolverFnAppSyncFunction4F5CEDCF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateCauseSubmissionDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationupdateCauseSubmissioninit0Function/MutationupdateCauseSubmissioninit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateCauseSubmissioninit0FunctionMutationupdateCauseSubmissioninit0FunctionAppSyncFunction1C44022A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateCauseSubmissioninit0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationupdateCauseSubmissionauth0Function/MutationupdateCauseSubmissionauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateCauseSubmissionauth0FunctionMutationupdateCauseSubmissionauth0FunctionAppSyncFunctionCE3DC0FD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateCauseSubmissionauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationupdateCauseSubmissionpostAuth0Function/MutationupdateCauseSubmissionpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateCauseSubmissionpostAuth0FunctionMutationupdateCauseSubmissionpostAuth0FunctionAppSyncFunction196641FF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateCauseSubmissionpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationUpdateCauseSubmissionDataResolverFn/MutationUpdateCauseSubmissionDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateCauseSubmissionDataResolverFnMutationUpdateCauseSubmissionDataResolverFnAppSyncFunction157C58FA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateCauseSubmissionDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationdeleteCauseSubmissionauth0Function/MutationdeleteCauseSubmissionauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteCauseSubmissionauth0FunctionMutationdeleteCauseSubmissionauth0FunctionAppSyncFunction4FE81B50"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteCauseSubmissionauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationdeleteCauseSubmissionpostAuth0Function/MutationdeleteCauseSubmissionpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteCauseSubmissionpostAuth0FunctionMutationdeleteCauseSubmissionpostAuth0FunctionAppSyncFunctionFBFB1831"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteCauseSubmissionpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/MutationDeleteCauseSubmissionDataResolverFn/MutationDeleteCauseSubmissionDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteCauseSubmissionDataResolverFnMutationDeleteCauseSubmissionDataResolverFnAppSyncFunctionC46B359F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteCauseSubmissionDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/SubscriptiononCreateCauseSubmissionauth0Function/SubscriptiononCreateCauseSubmissionauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateCauseSubmissionauth0FunctionSubscriptiononCreateCauseSubmissionauth0FunctionAppSyncFunction0FE1C3D4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateCauseSubmissionauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/SubscriptiononCreateCauseSubmissionpostAuth0Function/SubscriptiononCreateCauseSubmissionpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateCauseSubmissionpostAuth0FunctionSubscriptiononCreateCauseSubmissionpostAuth0FunctionAppSyncFunction41DED403"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateCauseSubmissionpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/SubscriptionOnCreateCauseSubmissionDataResolverFn/SubscriptionOnCreateCauseSubmissionDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateCauseSubmissionDataResolverFnSubscriptionOnCreateCauseSubmissionDataResolverFnAppSyncFunction5F3F9121"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateCauseSubmissionDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/SubscriptiononUpdateCauseSubmissionauth0Function/SubscriptiononUpdateCauseSubmissionauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateCauseSubmissionauth0FunctionSubscriptiononUpdateCauseSubmissionauth0FunctionAppSyncFunction7A903962"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateCauseSubmissionauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/SubscriptiononUpdateCauseSubmissionpostAuth0Function/SubscriptiononUpdateCauseSubmissionpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateCauseSubmissionpostAuth0FunctionSubscriptiononUpdateCauseSubmissionpostAuth0FunctionAppSyncFunctionF94CC158"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateCauseSubmissionpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/SubscriptionOnUpdateCauseSubmissionDataResolverFn/SubscriptionOnUpdateCauseSubmissionDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateCauseSubmissionDataResolverFnSubscriptionOnUpdateCauseSubmissionDataResolverFnAppSyncFunction086B967B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateCauseSubmissionDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/SubscriptiononDeleteCauseSubmissionauth0Function/SubscriptiononDeleteCauseSubmissionauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteCauseSubmissionauth0FunctionSubscriptiononDeleteCauseSubmissionauth0FunctionAppSyncFunctionC1327BC9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteCauseSubmissionauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/SubscriptiononDeleteCauseSubmissionpostAuth0Function/SubscriptiononDeleteCauseSubmissionpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteCauseSubmissionpostAuth0FunctionSubscriptiononDeleteCauseSubmissionpostAuth0FunctionAppSyncFunctionF93C1F62"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteCauseSubmissionpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/SubscriptionOnDeleteCauseSubmissionDataResolverFn/SubscriptionOnDeleteCauseSubmissionDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteCauseSubmissionDataResolverFnSubscriptionOnDeleteCauseSubmissionDataResolverFnAppSyncFunction4F72876C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteCauseSubmissionDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CauseSubmissionOwnerDataResolverFn/CauseSubmissionOwnerDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CauseSubmissionOwnerDataResolverFnCauseSubmissionOwnerDataResolverFnAppSyncFunctionF7D7A84E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CauseSubmissionOwnerDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CampaignIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CampaignIAMRole252A230E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CampaignIAMRole"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CampaignDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CampaignDataSource"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CampaignTable"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QuerygetCampaignauth0Function/QuerygetCampaignauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetCampaignauth0FunctionQuerygetCampaignauth0FunctionAppSyncFunctionCA77A139"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetCampaignauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QuerygetCampaignpostAuth0Function/QuerygetCampaignpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetCampaignpostAuth0FunctionQuerygetCampaignpostAuth0FunctionAppSyncFunction0746EDE0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetCampaignpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QueryGetCampaignDataResolverFn/QueryGetCampaignDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetCampaignDataResolverFnQueryGetCampaignDataResolverFnAppSyncFunctionBE63B4DB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetCampaignDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QuerylistCampaignsauth0Function/QuerylistCampaignsauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistCampaignsauth0FunctionQuerylistCampaignsauth0FunctionAppSyncFunction8D211EFB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistCampaignsauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QuerylistCampaignspostAuth0Function/QuerylistCampaignspostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistCampaignspostAuth0FunctionQuerylistCampaignspostAuth0FunctionAppSyncFunctionEBF84917"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistCampaignspostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QueryListCampaignsDataResolverFn/QueryListCampaignsDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListCampaignsDataResolverFnQueryListCampaignsDataResolverFnAppSyncFunction6E3B5056"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListCampaignsDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationcreateCampaigninit0Function/MutationcreateCampaigninit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateCampaigninit0FunctionMutationcreateCampaigninit0FunctionAppSyncFunction5E7EE7A1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateCampaigninit0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationcreateCampaignauth0Function/MutationcreateCampaignauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateCampaignauth0FunctionMutationcreateCampaignauth0FunctionAppSyncFunctionF45EFF91"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateCampaignauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationcreateCampaignpostAuth0Function/MutationcreateCampaignpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateCampaignpostAuth0FunctionMutationcreateCampaignpostAuth0FunctionAppSyncFunctionF22A82E9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateCampaignpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationCreateCampaignDataResolverFn/MutationCreateCampaignDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateCampaignDataResolverFnMutationCreateCampaignDataResolverFnAppSyncFunction5EC2E4B8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateCampaignDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationupdateCampaigninit0Function/MutationupdateCampaigninit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateCampaigninit0FunctionMutationupdateCampaigninit0FunctionAppSyncFunction3FC5184A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateCampaigninit0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationupdateCampaignauth0Function/MutationupdateCampaignauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateCampaignauth0FunctionMutationupdateCampaignauth0FunctionAppSyncFunction15BFCFBF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateCampaignauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationupdateCampaignpostAuth0Function/MutationupdateCampaignpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateCampaignpostAuth0FunctionMutationupdateCampaignpostAuth0FunctionAppSyncFunction3EFEF27A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateCampaignpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationUpdateCampaignDataResolverFn/MutationUpdateCampaignDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateCampaignDataResolverFnMutationUpdateCampaignDataResolverFnAppSyncFunction30D39EFA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateCampaignDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationdeleteCampaignauth0Function/MutationdeleteCampaignauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteCampaignauth0FunctionMutationdeleteCampaignauth0FunctionAppSyncFunctionF3D5B0D3"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteCampaignauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationdeleteCampaignpostAuth0Function/MutationdeleteCampaignpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteCampaignpostAuth0FunctionMutationdeleteCampaignpostAuth0FunctionAppSyncFunction2BB19182"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteCampaignpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationDeleteCampaignDataResolverFn/MutationDeleteCampaignDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteCampaignDataResolverFnMutationDeleteCampaignDataResolverFnAppSyncFunction04DA720F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteCampaignDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononCreateCampaignauth0Function/SubscriptiononCreateCampaignauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateCampaignauth0FunctionSubscriptiononCreateCampaignauth0FunctionAppSyncFunction26CBFCD8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateCampaignauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononCreateCampaignpostAuth0Function/SubscriptiononCreateCampaignpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateCampaignpostAuth0FunctionSubscriptiononCreateCampaignpostAuth0FunctionAppSyncFunction3EA60418"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateCampaignpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptionOnCreateCampaignDataResolverFn/SubscriptionOnCreateCampaignDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateCampaignDataResolverFnSubscriptionOnCreateCampaignDataResolverFnAppSyncFunction38FE4D94"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateCampaignDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononUpdateCampaignauth0Function/SubscriptiononUpdateCampaignauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateCampaignauth0FunctionSubscriptiononUpdateCampaignauth0FunctionAppSyncFunctionD09EC4D4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateCampaignauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononUpdateCampaignpostAuth0Function/SubscriptiononUpdateCampaignpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateCampaignpostAuth0FunctionSubscriptiononUpdateCampaignpostAuth0FunctionAppSyncFunctionCFDC91EB"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateCampaignpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptionOnUpdateCampaignDataResolverFn/SubscriptionOnUpdateCampaignDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateCampaignDataResolverFnSubscriptionOnUpdateCampaignDataResolverFnAppSyncFunction0CDAE260"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateCampaignDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononDeleteCampaignauth0Function/SubscriptiononDeleteCampaignauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteCampaignauth0FunctionSubscriptiononDeleteCampaignauth0FunctionAppSyncFunction70B39285"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteCampaignauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononDeleteCampaignpostAuth0Function/SubscriptiononDeleteCampaignpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteCampaignpostAuth0FunctionSubscriptiononDeleteCampaignpostAuth0FunctionAppSyncFunction5129B0F1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteCampaignpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptionOnDeleteCampaignDataResolverFn/SubscriptionOnDeleteCampaignDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteCampaignDataResolverFnSubscriptionOnDeleteCampaignDataResolverFnAppSyncFunctionABB180D0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteCampaignDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DonationIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DonationIAMRole6705FB84"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "DonationIAMRole"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DonationDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DonationDataSource"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "DonationTable"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/QuerygetDonationauth0Function/QuerygetDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetDonationauth0FunctionQuerygetDonationauth0FunctionAppSyncFunctionFEB383A2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/QuerygetDonationpostAuth0Function/QuerygetDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetDonationpostAuth0FunctionQuerygetDonationpostAuth0FunctionAppSyncFunctionAA775C93"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/QueryGetDonationDataResolverFn/QueryGetDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetDonationDataResolverFnQueryGetDonationDataResolverFnAppSyncFunctionC8A7E1CA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/QuerylistDonationsauth0Function/QuerylistDonationsauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistDonationsauth0FunctionQuerylistDonationsauth0FunctionAppSyncFunctionD2A3E63A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistDonationsauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/QuerylistDonationspostAuth0Function/QuerylistDonationspostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistDonationspostAuth0FunctionQuerylistDonationspostAuth0FunctionAppSyncFunction4706500D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistDonationspostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/QueryListDonationsDataResolverFn/QueryListDonationsDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListDonationsDataResolverFnQueryListDonationsDataResolverFnAppSyncFunctionDEF16B86"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListDonationsDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationcreateDonationinit0Function/MutationcreateDonationinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateDonationinit0FunctionMutationcreateDonationinit0FunctionAppSyncFunction1C905CC1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateDonationinit0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationcreateDonationauth0Function/MutationcreateDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateDonationauth0FunctionMutationcreateDonationauth0FunctionAppSyncFunctionCA5295BC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationcreateDonationpostAuth0Function/MutationcreateDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateDonationpostAuth0FunctionMutationcreateDonationpostAuth0FunctionAppSyncFunction0F90D356"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationCreateDonationDataResolverFn/MutationCreateDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateDonationDataResolverFnMutationCreateDonationDataResolverFnAppSyncFunction94853C89"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationupdateDonationinit0Function/MutationupdateDonationinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateDonationinit0FunctionMutationupdateDonationinit0FunctionAppSyncFunctionDCFB38AE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateDonationinit0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationupdateDonationauth0Function/MutationupdateDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateDonationauth0FunctionMutationupdateDonationauth0FunctionAppSyncFunctionC797FA7A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationupdateDonationpostAuth0Function/MutationupdateDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateDonationpostAuth0FunctionMutationupdateDonationpostAuth0FunctionAppSyncFunctionB297A4B1"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationUpdateDonationDataResolverFn/MutationUpdateDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateDonationDataResolverFnMutationUpdateDonationDataResolverFnAppSyncFunction3BF0BD41"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationdeleteDonationauth0Function/MutationdeleteDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteDonationauth0FunctionMutationdeleteDonationauth0FunctionAppSyncFunction3C84494E"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationdeleteDonationpostAuth0Function/MutationdeleteDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteDonationpostAuth0FunctionMutationdeleteDonationpostAuth0FunctionAppSyncFunctionFAA7E15C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/MutationDeleteDonationDataResolverFn/MutationDeleteDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteDonationDataResolverFnMutationDeleteDonationDataResolverFnAppSyncFunctionC7E22971"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/SubscriptiononCreateDonationauth0Function/SubscriptiononCreateDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateDonationauth0FunctionSubscriptiononCreateDonationauth0FunctionAppSyncFunction165D7BDF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/SubscriptiononCreateDonationpostAuth0Function/SubscriptiononCreateDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateDonationpostAuth0FunctionSubscriptiononCreateDonationpostAuth0FunctionAppSyncFunction15F29D96"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/SubscriptionOnCreateDonationDataResolverFn/SubscriptionOnCreateDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateDonationDataResolverFnSubscriptionOnCreateDonationDataResolverFnAppSyncFunctionA6A0E9B5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/SubscriptiononUpdateDonationauth0Function/SubscriptiononUpdateDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateDonationauth0FunctionSubscriptiononUpdateDonationauth0FunctionAppSyncFunction50D791AD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/SubscriptiononUpdateDonationpostAuth0Function/SubscriptiononUpdateDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateDonationpostAuth0FunctionSubscriptiononUpdateDonationpostAuth0FunctionAppSyncFunction7AFA634D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/SubscriptionOnUpdateDonationDataResolverFn/SubscriptionOnUpdateDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateDonationDataResolverFnSubscriptionOnUpdateDonationDataResolverFnAppSyncFunctionC290C8ED"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/SubscriptiononDeleteDonationauth0Function/SubscriptiononDeleteDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteDonationauth0FunctionSubscriptiononDeleteDonationauth0FunctionAppSyncFunction42D11B65"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/SubscriptiononDeleteDonationpostAuth0Function/SubscriptiononDeleteDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteDonationpostAuth0FunctionSubscriptiononDeleteDonationpostAuth0FunctionAppSyncFunction74339B72"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/SubscriptionOnDeleteDonationDataResolverFn/SubscriptionOnDeleteDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteDonationDataResolverFnSubscriptionOnDeleteDonationDataResolverFnAppSyncFunctionD9F8E0A8"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DonationOwnerDataResolverFn/DonationOwnerDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DonationOwnerDataResolverFnDonationOwnerDataResolverFnAppSyncFunctionD69490F9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...@aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "DonationOwnerDataResolverFn"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, <anonymous> in @aws-amplify\\backend...",
+        "Array.forEach (:)"
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/charityDocuments/Bucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "charityDocumentsBucketPolicyC928E268"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\backend-storage...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/storage/charityDocuments/Bucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "charityDocumentsBucketAutoDeleteObjectsCustomResource1958A7B5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\graphql-api-construct...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyTableWaiterStateMachineRole470BE899"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)",
+        "...@aws-amplify\\graphql-api-construct..."
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/CauseSubmission/CauseSubmissionTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CauseSubmissionTable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CauseSubmission"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CampaignTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CampaignTable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Campaign"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Donation/DonationTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DonationTable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, <anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Array.forEach (:)",
+        "...<anonymous> in @aws-amplify\\graphql-api-construct...",
+        "Map.forEach (:)"
+      ]
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Donation"
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\graphql-api-construct, @aws-amplify\\backend-data, @aws-amplify\\backend...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, @aws-amplify\\graphql-api-construct...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ]
+}

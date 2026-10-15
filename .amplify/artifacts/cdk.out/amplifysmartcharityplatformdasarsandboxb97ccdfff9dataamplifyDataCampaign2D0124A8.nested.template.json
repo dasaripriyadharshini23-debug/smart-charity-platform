@@ -1,0 +1,2080 @@
+{
+ "Parameters": {
+  "DynamoDBModelTableReadIOPS": {
+   "Type": "Number",
+   "Default": 5,
+   "Description": "The number of read IOPS the table should support."
+  },
+  "DynamoDBModelTableWriteIOPS": {
+   "Type": "Number",
+   "Default": 5,
+   "Description": "The number of write IOPS the table should support."
+  },
+  "DynamoDBBillingMode": {
+   "Type": "String",
+   "Default": "PAY_PER_REQUEST",
+   "AllowedValues": [
+    "PAY_PER_REQUEST",
+    "PROVISIONED"
+   ],
+   "Description": "Configure @model types to create DynamoDB tables with PAY_PER_REQUEST or PROVISIONED billing modes."
+  },
+  "DynamoDBEnablePointInTimeRecovery": {
+   "Type": "String",
+   "Default": "false",
+   "AllowedValues": [
+    "true",
+    "false"
+   ],
+   "Description": "Whether to enable Point in Time Recovery on the table."
+  },
+  "DynamoDBEnableServerSideEncryption": {
+   "Type": "String",
+   "Default": "true",
+   "AllowedValues": [
+    "true",
+    "false"
+   ],
+   "Description": "Enable server side encryption powered by KMS."
+  },
+  "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE6D0A025Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManageF6D52866": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef": {
+   "Type": "String"
+  }
+ },
+ "Conditions": {
+  "HasEnvironmentParameter": {
+   "Fn::Not": [
+    {
+     "Fn::Equals": [
+      "NONE",
+      "NONE"
+     ]
+    }
+   ]
+  },
+  "ShouldUsePayPerRequestBilling": {
+   "Fn::Equals": [
+    {
+     "Ref": "DynamoDBBillingMode"
+    },
+    "PAY_PER_REQUEST"
+   ]
+  },
+  "ShouldUsePointInTimeRecovery": {
+   "Fn::Equals": [
+    {
+     "Ref": "DynamoDBEnablePointInTimeRecovery"
+    },
+    "true"
+   ]
+  },
+  "CDKMetadataAvailable": {
+   "Fn::Or": [
+    {
+     "Fn::Or": [
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "af-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-east-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-northeast-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-northeast-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-northeast-3"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-south-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-3"
+       ]
+      }
+     ]
+    },
+    {
+     "Fn::Or": [
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-4"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ca-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ca-west-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "cn-north-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "cn-northwest-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-central-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-north-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-south-2"
+       ]
+      }
+     ]
+    },
+    {
+     "Fn::Or": [
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-west-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-west-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-west-3"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "il-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "me-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "me-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "sa-east-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-east-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-east-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-west-1"
+       ]
+      }
+     ]
+    },
+    {
+     "Fn::Equals": [
+      {
+       "Ref": "AWS::Region"
+      },
+      "us-west-2"
+     ]
+    }
+   ]
+  }
+ },
+ "Resources": {
+  "CampaignTable": {
+   "Type": "Custom::AmplifyDynamoDBTable",
+   "Properties": {
+    "ServiceToken": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceE6D0A025Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataAmplifyTableManageF6D52866"
+    },
+    "tableName": {
+     "Fn::Join": [
+      "",
+      [
+       "Campaign-",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "-NONE"
+      ]
+     ]
+    },
+    "attributeDefinitions": [
+     {
+      "attributeName": "id",
+      "attributeType": "S"
+     }
+    ],
+    "keySchema": [
+     {
+      "attributeName": "id",
+      "keyType": "HASH"
+     }
+    ],
+    "provisionedThroughput": {
+     "Fn::If": [
+      "ShouldUsePayPerRequestBilling",
+      {
+       "Ref": "AWS::NoValue"
+      },
+      {
+       "ReadCapacityUnits": {
+        "Ref": "DynamoDBModelTableReadIOPS"
+       },
+       "WriteCapacityUnits": {
+        "Ref": "DynamoDBModelTableWriteIOPS"
+       }
+      }
+     ]
+    },
+    "sseSpecification": {
+     "sseEnabled": false
+    },
+    "streamSpecification": {
+     "streamViewType": "NEW_AND_OLD_IMAGES"
+    },
+    "deletionProtectionEnabled": false,
+    "allowDestructiveGraphqlSchemaUpdates": true,
+    "replaceTableUponGsiUpdate": true,
+    "pointInTimeRecoverySpecification": {
+     "Fn::If": [
+      "ShouldUsePointInTimeRecovery",
+      {
+       "PointInTimeRecoveryEnabled": true
+      },
+      {
+       "Ref": "AWS::NoValue"
+      }
+     ]
+    },
+    "billingMode": {
+     "Fn::If": [
+      "ShouldUsePayPerRequestBilling",
+      "PAY_PER_REQUEST",
+      {
+       "Ref": "AWS::NoValue"
+      }
+     ]
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CampaignTable/Default/Default"
+   }
+  },
+  "CampaignIAMRole252A230E": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "appsync.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "Policies": [
+     {
+      "PolicyDocument": {
+       "Statement": [
+        {
+         "Action": [
+          "dynamodb:BatchGetItem",
+          "dynamodb:BatchWriteItem",
+          "dynamodb:PutItem",
+          "dynamodb:DeleteItem",
+          "dynamodb:GetItem",
+          "dynamodb:Scan",
+          "dynamodb:Query",
+          "dynamodb:UpdateItem",
+          "dynamodb:ConditionCheckItem",
+          "dynamodb:DescribeTable",
+          "dynamodb:GetRecords",
+          "dynamodb:GetShardIterator"
+         ],
+         "Effect": "Allow",
+         "Resource": [
+          {
+           "Fn::Sub": [
+            "arn:${AWS::Partition}:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${tablename}",
+            {
+             "tablename": {
+              "Fn::Join": [
+               "",
+               [
+                "Campaign-",
+                {
+                 "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+                },
+                "-NONE"
+               ]
+              ]
+             }
+            }
+           ]
+          },
+          {
+           "Fn::Sub": [
+            "arn:${AWS::Partition}:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${tablename}/*",
+            {
+             "tablename": {
+              "Fn::Join": [
+               "",
+               [
+                "Campaign-",
+                {
+                 "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+                },
+                "-NONE"
+               ]
+              ]
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "Version": "2012-10-17"
+      },
+      "PolicyName": "DynamoDBAccess"
+     }
+    ],
+    "RoleName": {
+     "Fn::Join": [
+      "",
+      [
+       "CampaignIAMRole987040-",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "-NONE"
+      ]
+     ]
+    },
+    "Tags": [
+     {
+      "Key": "amplify:deployment-type",
+      "Value": "sandbox"
+     },
+     {
+      "Key": "amplify:friendly-name",
+      "Value": "amplifyData"
+     },
+     {
+      "Key": "created-by",
+      "Value": "amplify"
+     }
+    ]
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CampaignIAMRole/Resource"
+   }
+  },
+  "CampaignDataSource": {
+   "Type": "AWS::AppSync::DataSource",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DynamoDBConfig": {
+     "AwsRegion": {
+      "Ref": "AWS::Region"
+     },
+     "TableName": {
+      "Fn::Select": [
+       1,
+       {
+        "Fn::Split": [
+         "/",
+         {
+          "Fn::Select": [
+           5,
+           {
+            "Fn::Split": [
+             ":",
+             {
+              "Fn::GetAtt": [
+               "CampaignTable",
+               "TableArn"
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    "Name": "CampaignTable",
+    "ServiceRoleArn": {
+     "Fn::GetAtt": [
+      "CampaignIAMRole252A230E",
+      "Arn"
+     ]
+    },
+    "Type": "AMAZON_DYNAMODB"
+   },
+   "DependsOn": [
+    "CampaignIAMRole252A230E"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CampaignDataSource/Resource"
+   }
+  },
+  "QuerygetCampaignauth0FunctionQuerygetCampaignauth0FunctionAppSyncFunctionCA77A139": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QuerygetCampaignauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/b68cc472beb5d6c236bbd8682e31d78bd46b63809a9f03f801f6b373542c9c6c.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QuerygetCampaignauth0Function/QuerygetCampaignauth0Function.AppSyncFunction"
+   }
+  },
+  "QuerygetCampaignpostAuth0FunctionQuerygetCampaignpostAuth0FunctionAppSyncFunction0746EDE0": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QuerygetCampaignpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QuerygetCampaignpostAuth0Function/QuerygetCampaignpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "QueryGetCampaignDataResolverFnQueryGetCampaignDataResolverFnAppSyncFunctionBE63B4DB": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "CampaignDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QueryGetCampaignDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/08f4d557693d96c1a4efba0f9dc91330e4b19772fd5477c156468843e3d9cb5e.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/4c6a2d29f01c6091bd1d9afe16e5849d456c96f17c3b215938c8067399532719.vtl"
+    }
+   },
+   "DependsOn": [
+    "CampaignDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QueryGetCampaignDataResolverFn/QueryGetCampaignDataResolverFn.AppSyncFunction"
+   }
+  },
+  "GetCampaignResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "FieldName": "getCampaign",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "QuerygetCampaignauth0FunctionQuerygetCampaignauth0FunctionAppSyncFunctionCA77A139",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "QuerygetCampaignpostAuth0FunctionQuerygetCampaignpostAuth0FunctionAppSyncFunction0746EDE0",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "QueryGetCampaignDataResolverFnQueryGetCampaignDataResolverFnAppSyncFunctionBE63B4DB",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Query\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"getCampaign\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "CampaignTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Query"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/queryGetCampaignResolver"
+   }
+  },
+  "QuerylistCampaignsauth0FunctionQuerylistCampaignsauth0FunctionAppSyncFunction8D211EFB": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QuerylistCampaignsauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/b68cc472beb5d6c236bbd8682e31d78bd46b63809a9f03f801f6b373542c9c6c.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QuerylistCampaignsauth0Function/QuerylistCampaignsauth0Function.AppSyncFunction"
+   }
+  },
+  "QuerylistCampaignspostAuth0FunctionQuerylistCampaignspostAuth0FunctionAppSyncFunctionEBF84917": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QuerylistCampaignspostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QuerylistCampaignspostAuth0Function/QuerylistCampaignspostAuth0Function.AppSyncFunction"
+   }
+  },
+  "QueryListCampaignsDataResolverFnQueryListCampaignsDataResolverFnAppSyncFunction6E3B5056": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "CampaignDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QueryListCampaignsDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/9fcbe070ecd3023c5bf5b966fa9584757db9762eef123bad0820bd87591b2174.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/cc01911d0269d4080ea57505dc445dfc315ef7ad85d3d9d4ea1357858bff451d.vtl"
+    }
+   },
+   "DependsOn": [
+    "CampaignDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/QueryListCampaignsDataResolverFn/QueryListCampaignsDataResolverFn.AppSyncFunction"
+   }
+  },
+  "ListCampaignResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "FieldName": "listCampaigns",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "QuerylistCampaignsauth0FunctionQuerylistCampaignsauth0FunctionAppSyncFunction8D211EFB",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "QuerylistCampaignspostAuth0FunctionQuerylistCampaignspostAuth0FunctionAppSyncFunctionEBF84917",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "QueryListCampaignsDataResolverFnQueryListCampaignsDataResolverFnAppSyncFunction6E3B5056",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Query\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"listCampaigns\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "CampaignTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Query"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/queryListCampaignsResolver"
+   }
+  },
+  "MutationcreateCampaigninit0FunctionMutationcreateCampaigninit0FunctionAppSyncFunction5E7EE7A1": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationcreateCampaigninit0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/a183ddccbd956316c38ef97177b8f088ef0826f62023323f5ae6053d348ccffc.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationcreateCampaigninit0Function/MutationcreateCampaigninit0Function.AppSyncFunction"
+   }
+  },
+  "MutationcreateCampaignauth0FunctionMutationcreateCampaignauth0FunctionAppSyncFunctionF45EFF91": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationcreateCampaignauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/ff0ef3c8113b1e35bfa4df4f51c31439812b5d19e38bceab9f5bbb3394cae46e.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationcreateCampaignauth0Function/MutationcreateCampaignauth0Function.AppSyncFunction"
+   }
+  },
+  "MutationcreateCampaignpostAuth0FunctionMutationcreateCampaignpostAuth0FunctionAppSyncFunctionF22A82E9": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationcreateCampaignpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationcreateCampaignpostAuth0Function/MutationcreateCampaignpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "MutationCreateCampaignDataResolverFnMutationCreateCampaignDataResolverFnAppSyncFunction5EC2E4B8": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "CampaignDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationCreateCampaignDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c3992a2897d79481792268f698b2924ba9d0febf8bd7754c3aa0fefc5c536187.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249.vtl"
+    }
+   },
+   "DependsOn": [
+    "CampaignDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationCreateCampaignDataResolverFn/MutationCreateCampaignDataResolverFn.AppSyncFunction"
+   }
+  },
+  "CreateCampaignResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "FieldName": "createCampaign",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "MutationcreateCampaigninit0FunctionMutationcreateCampaigninit0FunctionAppSyncFunction5E7EE7A1",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationcreateCampaignauth0FunctionMutationcreateCampaignauth0FunctionAppSyncFunctionF45EFF91",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationcreateCampaignpostAuth0FunctionMutationcreateCampaignpostAuth0FunctionAppSyncFunctionF22A82E9",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationCreateCampaignDataResolverFnMutationCreateCampaignDataResolverFnAppSyncFunction5EC2E4B8",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Mutation\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"createCampaign\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "CampaignTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Mutation"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/mutationCreateCampaignResolver"
+   }
+  },
+  "MutationupdateCampaigninit0FunctionMutationupdateCampaigninit0FunctionAppSyncFunction3FC5184A": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationupdateCampaigninit0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/06db846fd14e6fc371f22b12b5545ba8e2dbfeda85d8c8d586c71c282166657b.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationupdateCampaigninit0Function/MutationupdateCampaigninit0Function.AppSyncFunction"
+   }
+  },
+  "MutationupdateCampaignauth0FunctionMutationupdateCampaignauth0FunctionAppSyncFunction15BFCFBF": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "CampaignDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationupdateCampaignauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e610db4476fd278f0e658215506d65eea971260a9215a3f7757f302a9a14c9a5.vtl"
+    }
+   },
+   "DependsOn": [
+    "CampaignDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationupdateCampaignauth0Function/MutationupdateCampaignauth0Function.AppSyncFunction"
+   }
+  },
+  "MutationupdateCampaignpostAuth0FunctionMutationupdateCampaignpostAuth0FunctionAppSyncFunction3EFEF27A": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationupdateCampaignpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationupdateCampaignpostAuth0Function/MutationupdateCampaignpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "MutationUpdateCampaignDataResolverFnMutationUpdateCampaignDataResolverFnAppSyncFunction30D39EFA": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "CampaignDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationUpdateCampaignDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/474bf0776ec2164a13191d1a0a9e057154931e4918fea5086f49850d02a5371b.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249.vtl"
+    }
+   },
+   "DependsOn": [
+    "CampaignDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationUpdateCampaignDataResolverFn/MutationUpdateCampaignDataResolverFn.AppSyncFunction"
+   }
+  },
+  "UpdateCampaignResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "FieldName": "updateCampaign",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "MutationupdateCampaigninit0FunctionMutationupdateCampaigninit0FunctionAppSyncFunction3FC5184A",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationupdateCampaignauth0FunctionMutationupdateCampaignauth0FunctionAppSyncFunction15BFCFBF",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationupdateCampaignpostAuth0FunctionMutationupdateCampaignpostAuth0FunctionAppSyncFunction3EFEF27A",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationUpdateCampaignDataResolverFnMutationUpdateCampaignDataResolverFnAppSyncFunction30D39EFA",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Mutation\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"updateCampaign\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "CampaignTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Mutation"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/mutationUpdateCampaignResolver"
+   }
+  },
+  "MutationdeleteCampaignauth0FunctionMutationdeleteCampaignauth0FunctionAppSyncFunctionF3D5B0D3": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "CampaignDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationdeleteCampaignauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/45c7c52cacf53924b3cc4d12c9d6ef635a3cdd63cb01c3cb4da212b6391c24cb.vtl"
+    }
+   },
+   "DependsOn": [
+    "CampaignDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationdeleteCampaignauth0Function/MutationdeleteCampaignauth0Function.AppSyncFunction"
+   }
+  },
+  "MutationdeleteCampaignpostAuth0FunctionMutationdeleteCampaignpostAuth0FunctionAppSyncFunction2BB19182": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationdeleteCampaignpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationdeleteCampaignpostAuth0Function/MutationdeleteCampaignpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "MutationDeleteCampaignDataResolverFnMutationDeleteCampaignDataResolverFnAppSyncFunction04DA720F": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "CampaignDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationDeleteCampaignDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/4f7907d1209a2c9953a0c053df402c634e359546d70c7cc5c2e8e21ea734880f.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249.vtl"
+    }
+   },
+   "DependsOn": [
+    "CampaignDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/MutationDeleteCampaignDataResolverFn/MutationDeleteCampaignDataResolverFn.AppSyncFunction"
+   }
+  },
+  "DeleteCampaignResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "FieldName": "deleteCampaign",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "MutationdeleteCampaignauth0FunctionMutationdeleteCampaignauth0FunctionAppSyncFunctionF3D5B0D3",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationdeleteCampaignpostAuth0FunctionMutationdeleteCampaignpostAuth0FunctionAppSyncFunction2BB19182",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationDeleteCampaignDataResolverFnMutationDeleteCampaignDataResolverFnAppSyncFunction04DA720F",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Mutation\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"deleteCampaign\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "CampaignTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Mutation"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/mutationDeleteCampaignResolver"
+   }
+  },
+  "SubscriptiononCreateCampaignauth0FunctionSubscriptiononCreateCampaignauth0FunctionAppSyncFunction26CBFCD8": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononCreateCampaignauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fafa3f1390dc7b75e4b1fd7976531d3dd5eddfc4dcf91838f3a78b976d97094a.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononCreateCampaignauth0Function/SubscriptiononCreateCampaignauth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptiononCreateCampaignpostAuth0FunctionSubscriptiononCreateCampaignpostAuth0FunctionAppSyncFunction3EA60418": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononCreateCampaignpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononCreateCampaignpostAuth0Function/SubscriptiononCreateCampaignpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptionOnCreateCampaignDataResolverFnSubscriptionOnCreateCampaignDataResolverFnAppSyncFunction38FE4D94": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptionOnCreateCampaignDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc.vtl"
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptionOnCreateCampaignDataResolverFn/SubscriptionOnCreateCampaignDataResolverFn.AppSyncFunction"
+   }
+  },
+  "SubscriptiononCreateCampaignResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "FieldName": "onCreateCampaign",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononCreateCampaignauth0FunctionSubscriptiononCreateCampaignauth0FunctionAppSyncFunction26CBFCD8",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononCreateCampaignpostAuth0FunctionSubscriptiononCreateCampaignpostAuth0FunctionAppSyncFunction3EA60418",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptionOnCreateCampaignDataResolverFnSubscriptionOnCreateCampaignDataResolverFnAppSyncFunction38FE4D94",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Subscription\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"onCreateCampaign\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"NONE\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Subscription"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/subscriptionOnCreateCampaignResolver"
+   }
+  },
+  "SubscriptiononUpdateCampaignauth0FunctionSubscriptiononUpdateCampaignauth0FunctionAppSyncFunctionD09EC4D4": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononUpdateCampaignauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fafa3f1390dc7b75e4b1fd7976531d3dd5eddfc4dcf91838f3a78b976d97094a.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononUpdateCampaignauth0Function/SubscriptiononUpdateCampaignauth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptiononUpdateCampaignpostAuth0FunctionSubscriptiononUpdateCampaignpostAuth0FunctionAppSyncFunctionCFDC91EB": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononUpdateCampaignpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononUpdateCampaignpostAuth0Function/SubscriptiononUpdateCampaignpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptionOnUpdateCampaignDataResolverFnSubscriptionOnUpdateCampaignDataResolverFnAppSyncFunction0CDAE260": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptionOnUpdateCampaignDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc.vtl"
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptionOnUpdateCampaignDataResolverFn/SubscriptionOnUpdateCampaignDataResolverFn.AppSyncFunction"
+   }
+  },
+  "SubscriptiononUpdateCampaignResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "FieldName": "onUpdateCampaign",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononUpdateCampaignauth0FunctionSubscriptiononUpdateCampaignauth0FunctionAppSyncFunctionD09EC4D4",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononUpdateCampaignpostAuth0FunctionSubscriptiononUpdateCampaignpostAuth0FunctionAppSyncFunctionCFDC91EB",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptionOnUpdateCampaignDataResolverFnSubscriptionOnUpdateCampaignDataResolverFnAppSyncFunction0CDAE260",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Subscription\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"onUpdateCampaign\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"NONE\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Subscription"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/subscriptionOnUpdateCampaignResolver"
+   }
+  },
+  "SubscriptiononDeleteCampaignauth0FunctionSubscriptiononDeleteCampaignauth0FunctionAppSyncFunction70B39285": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononDeleteCampaignauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fafa3f1390dc7b75e4b1fd7976531d3dd5eddfc4dcf91838f3a78b976d97094a.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononDeleteCampaignauth0Function/SubscriptiononDeleteCampaignauth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptiononDeleteCampaignpostAuth0FunctionSubscriptiononDeleteCampaignpostAuth0FunctionAppSyncFunction5129B0F1": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononDeleteCampaignpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptiononDeleteCampaignpostAuth0Function/SubscriptiononDeleteCampaignpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptionOnDeleteCampaignDataResolverFnSubscriptionOnDeleteCampaignDataResolverFnAppSyncFunctionABB180D0": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPINONEDSBF6F7B2AName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptionOnDeleteCampaignDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc.vtl"
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/SubscriptionOnDeleteCampaignDataResolverFn/SubscriptionOnDeleteCampaignDataResolverFn.AppSyncFunction"
+   }
+  },
+  "SubscriptiononDeleteCampaignResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+    },
+    "FieldName": "onDeleteCampaign",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononDeleteCampaignauth0FunctionSubscriptiononDeleteCampaignauth0FunctionAppSyncFunction70B39285",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononDeleteCampaignpostAuth0FunctionSubscriptiononDeleteCampaignpostAuth0FunctionAppSyncFunction5129B0F1",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptionOnDeleteCampaignDataResolverFnSubscriptionOnDeleteCampaignDataResolverFnAppSyncFunctionABB180D0",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Subscription\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"onDeleteCampaign\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"NONE\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthauthenticatedUserRoleA5211988Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthunauthenticatedUserRoleF7EC587ARef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9authNestedStackauthNestedStackResource4E9111D4Outputsamplifysmartcharityplatformdasarsandboxb97ccdfff9authamplifyAuthIdentityPool3CA1B45ARef"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Subscription"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/subscriptionOnDeleteCampaignResolver"
+   }
+  },
+  "CDKMetadata": {
+   "Type": "AWS::CDK::Metadata",
+   "Properties": {
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/1WOwW6DMAyGn6X31Otg0s4raMdtgt0rkxiUAg6KnVYV4t0n6NRpp9+f/Mn+M8heczjs8Cp76/r94BuYP0iUXK1oe1O0/IURR1KKKxSBnVcf2FQkIUVLpkiiYfzDlh8zXuU0uxvjGFwD39gMdEQh43GEuQrD3Q4DLQanSW5sYS43vWxKVKwfJ//Te2K7ligCt75LEbdGv5+HC8XFSH5CEVKBtzWM5HBMtiddCyyr+5l0Smq2da3Yee4Ww8ERnOXpkr1A9gyH3Vm838fE6keC6p4/Zpa57jYBAAA="
+   },
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcharityplatform-dasar-sandbox-b97ccdfff9/data/amplifyData/Campaign/CDKMetadata/Default"
+   },
+   "Condition": "CDKMetadataAvailable"
+  }
+ },
+ "Outputs": {
+  "GetAttCampaignTableStreamArn": {
+   "Description": "Your DynamoDB table StreamArn.",
+   "Value": {
+    "Fn::GetAtt": [
+     "CampaignTable",
+     "TableStreamArn"
+    ]
+   },
+   "Export": {
+    "Name": {
+     "Fn::Join": [
+      ":",
+      [
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "GetAtt:CampaignTable:StreamArn"
+      ]
+     ]
+    }
+   }
+  },
+  "GetAttCampaignTableName": {
+   "Description": "Your DynamoDB table name.",
+   "Value": {
+    "Fn::Join": [
+     "",
+     [
+      "Campaign-",
+      {
+       "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+      },
+      "-NONE"
+     ]
+    ]
+   },
+   "Export": {
+    "Name": {
+     "Fn::Join": [
+      ":",
+      [
+       {
+        "Ref": "referencetoamplifysmartcharityplatformdasarsandboxb97ccdfff9dataamplifyDataGraphQLAPIAB54BE3EApiId"
+       },
+       "GetAtt:CampaignTable:Name"
+      ]
+     ]
+    }
+   }
+  }
+ }
+}
